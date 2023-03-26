@@ -1,0 +1,32 @@
+.box{
+    width:200px;
+    height:200px;
+    border: 3px solid black;
+    font-size: 45px;
+}
+.row{
+    display: flex;
+}
+.gameboard{
+    margin-top: 20px;
+    margin-left: 400px;
+    text-align: center;
+
+    
+}
+.winnerDetails{
+   text-align: center;
+}
+.winnerDetails button{
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    background-color: chartreuse;
+    border-radius: 25px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#winnerDisplay{
+    font-size: 50px;
+    color: navy;
+}
